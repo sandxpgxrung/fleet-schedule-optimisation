@@ -1,2 +1,5 @@
 task 1 = dijkstars algorithm https://pypi.org/project/Dijkstar/ 
+nearest-neighbour clustering? -> align with dijkastars algorithm?
+
 task 2 = genetic algorithm from scratch
+random-clustering? -> align with the randomness of genetic algorithm? (otherwise nearest-neighbour)
