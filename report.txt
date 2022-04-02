@@ -1,0 +1,2 @@
+task 1 = dijkstars algorithm https://pypi.org/project/Dijkstar/ 
+task 2 = genetic algorithm from scratch
