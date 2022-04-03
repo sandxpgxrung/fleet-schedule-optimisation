@@ -1,5 +1,5 @@
 task 1 = dijkstars algorithm https://pypi.org/project/Dijkstar/ 
-nearest-neighbour clustering? -> align with dijkastars algorithm?
+nearest-neighbour clustering? (either knn or notion-based) -> align with dijkastars algorithm?
 ^ NB; doesn't consider ovr path length, only considers the coord differences
 
 task 2 = genetic algorithm from scratch
