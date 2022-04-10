@@ -2,6 +2,7 @@ task 1 = dijkstars algorithm https://pypi.org/project/Dijkstar/
 nearest-neighbour clustering? (either knn or notion-based) -> align with dijkastars algorithm?
 ^ NB; doesn't consider ovr path length, only considers the coord differences
 -> gives quick solution (DFS -> Best First Search) -> DISADV. -> dijkstar alg. == no backtrack
+-> whereas, the manual algo. create self backtrack to go back to starting node from found node FOR SHORTEST PATH
 
 task 2 = genetic algorithm from scratch
 random-clustering? -> align with the randomness of genetic algorithm? (otherwise nearest-neighbour)
