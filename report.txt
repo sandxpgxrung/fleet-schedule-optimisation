@@ -1,4 +1,6 @@
-task 1 = dijkstars algorithm https://pypi.org/project/Dijkstar/ 
+                                        ### TASK 1 ### 
+
+= dijkstars algorithm https://pypi.org/project/Dijkstar/ 
 nearest-neighbour clustering? (either knn or notion-based) -> align with dijkastars algorithm?
 ^ NB; doesn't consider ovr path length, only considers the coord differences
 -> gives quick solution (DFS -> Best First Search) -> DISADV. -> dijkstar alg. == no backtrack
@@ -7,7 +9,10 @@ nearest-neighbour clustering? (either knn or notion-based) -> align with dijkast
 ++ greedy search used for selecting nearest nodes (customer||depot)
 GOAL? by choosing the nearest nodes -> trying to minimise overall dispatch time
 
-task 2 = genetic algorithm from scratch
+
+                                        ### TASK 2 ### 
+
+= genetic algorithm from scratch
 neares-neighbour clustering (allocation to depot assignment for consistenc with task 1)
 -- BFS for node traversal
 -- Unlike greedy search, GA to order the arrangement of customers being visited by 
@@ -22,6 +27,7 @@ any unvisited nodes are remainders to be visited by other lorries in that depot,
 
 Fitness -> each chromosome has a weight (the overall traversal distance from one node to other)
 so the total weight per solution is the cumulative sum of each chromosome's weight in the genome. 
+-- takes longer when assigning fitness to each genomes (possible solution) -> slower convergence
 
 Crossover -> given two genomes (so two routes dicts). swap allocated routes for certain depots (random chosen). \n 
 in hopes of generating a fitter offspring. (can employ elitism here to retain fitter genomes)
