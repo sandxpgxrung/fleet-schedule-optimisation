@@ -9,6 +9,8 @@ nearest-neighbour clustering? (either knn or notion-based) -> align with dijkast
 ++ greedy search used for selecting nearest nodes (customer||depot)
 GOAL? by choosing the nearest nodes -> trying to minimise overall dispatch time
 
+194640.17
+
 
                                         ### TASK 2 ### 
 
