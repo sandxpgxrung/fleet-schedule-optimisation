@@ -39,3 +39,7 @@ switch orders in which a node may be visited. (can employ elitism here)
 
 # main loop these functions in a while iteration, given constraints. Use the fittest solution found as the 
 final order in which lorry's from each depot are to visit the customers. 
+
+TOTAL GAS SUPPLIED: 44.81999999999999
+PATH COST: 705426.94
+COST EFFICIENCY: 6.353599140968446e-05
