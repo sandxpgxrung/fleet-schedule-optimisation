@@ -4,3 +4,5 @@ pandas
 matplotlib
 networkx
 scipy
+plotly
+nbformat
